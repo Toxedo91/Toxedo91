@@ -4,6 +4,15 @@ const offlineCount = document.getElementById("offline-count");
 const warningCount = document.getElementById("warning-count");
 const maxCount = document.getElementById("max-count");
 
+function escapeHtml(value) {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;");
+}
+
 function statusBadge(motor) {
   if (motor.warning) {
     return `<span class="status-dot dot-warning"></span>Warnung`;
@@ -29,14 +38,14 @@ function render(data) {
       const rowClass = m.warning ? "warning" : m.is_online ? "online" : "offline";
       return `
       <tr class="${rowClass}">
-        <td>${m.motor_id}</td>
+        <td>${escapeHtml(m.motor_id)}</td>
         <td>${statusBadge(m)}</td>
-        <td>${m.position_mm.toFixed(2)}</td>
-        <td>${m.speed_mm_s.toFixed(2)}</td>
-        <td>${m.ram_usage_percent.toFixed(1)}</td>
-        <td>${m.cpu_temp_c.toFixed(1)}</td>
-        <td>${m.error ? m.error_text : "-"}</td>
-        <td>${m.age_s}</td>
+        <td>${escapeHtml(m.position_mm.toFixed(2))}</td>
+        <td>${escapeHtml(m.speed_mm_s.toFixed(2))}</td>
+        <td>${escapeHtml(m.ram_usage_percent.toFixed(1))}</td>
+        <td>${escapeHtml(m.cpu_temp_c.toFixed(1))}</td>
+        <td>${m.error ? escapeHtml(m.error_text) : "-"}</td>
+        <td>${escapeHtml(m.age_s)}</td>
       </tr>`;
     })
     .join("");
