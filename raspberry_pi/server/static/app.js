@@ -4,14 +4,57 @@ const offlineCount = document.getElementById("offline-count");
 const warningCount = document.getElementById("warning-count");
 const maxCount = document.getElementById("max-count");
 
-function statusBadge(motor) {
+function createStatusCell(motor) {
+  const fragment = document.createDocumentFragment();
+  const dot = document.createElement("span");
+
+  dot.classList.add("status-dot");
+
   if (motor.warning) {
-    return `<span class="status-dot dot-warning"></span>Warnung`;
+    dot.classList.add("dot-warning");
+    fragment.append(dot, document.createTextNode("Warnung"));
+    return fragment;
   }
+
   if (motor.is_online) {
-    return `<span class="status-dot dot-online"></span>Online`;
+    dot.classList.add("dot-online");
+    fragment.append(dot, document.createTextNode("Online"));
+    return fragment;
   }
-  return `<span class="status-dot dot-offline"></span>Offline`;
+
+  dot.classList.add("dot-offline");
+  fragment.append(dot, document.createTextNode("Offline"));
+  return fragment;
+}
+
+function buildRow(motor) {
+  const row = document.createElement("tr");
+  row.className = motor.warning ? "warning" : motor.is_online ? "online" : "offline";
+
+  const columns = [
+    motor.motor_id,
+    null,
+    motor.position_mm.toFixed(2),
+    motor.speed_mm_s.toFixed(2),
+    motor.ram_usage_percent.toFixed(1),
+    motor.cpu_temp_c.toFixed(1),
+    motor.error ? motor.error_text : "-",
+    motor.age_s,
+  ];
+
+  columns.forEach((value, index) => {
+    const cell = document.createElement("td");
+
+    if (index === 1) {
+      cell.appendChild(createStatusCell(motor));
+    } else {
+      cell.textContent = value;
+    }
+
+    row.appendChild(cell);
+  });
+
+  return row;
 }
 
 function render(data) {
@@ -24,22 +67,7 @@ function render(data) {
 
   const visible = motors.filter((m) => !m.hidden);
 
-  tableBody.innerHTML = visible
-    .map((m) => {
-      const rowClass = m.warning ? "warning" : m.is_online ? "online" : "offline";
-      return `
-      <tr class="${rowClass}">
-        <td>${m.motor_id}</td>
-        <td>${statusBadge(m)}</td>
-        <td>${m.position_mm.toFixed(2)}</td>
-        <td>${m.speed_mm_s.toFixed(2)}</td>
-        <td>${m.ram_usage_percent.toFixed(1)}</td>
-        <td>${m.cpu_temp_c.toFixed(1)}</td>
-        <td>${m.error ? m.error_text : "-"}</td>
-        <td>${m.age_s}</td>
-      </tr>`;
-    })
-    .join("");
+  tableBody.replaceChildren(...visible.map(buildRow));
 }
 
 async function initialLoad() {
