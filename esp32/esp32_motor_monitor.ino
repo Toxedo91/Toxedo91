@@ -1,3 +1,14 @@
+/*
+ * PD Stepper Webpage + MQTT Read-Only Dashboard Final 7.0 (spec reference)
+ * Eigenschaften laut Anforderung:
+ * - Heim-WLAN mit 3 Versuchen
+ * - AP-Fallback (192.168.4.1)
+ * - Weboberfläche direkt im ESP (AP- und STA-Modus)
+ * - MQTT nur für Status / Telemetry / Heartbeat / Online
+ * - Node-RED Dashboard read-only
+ * - mDNS / Hostname: http://pdstepper-<id>.local
+ */
+
 #include <WiFi.h>
 #include <WebServer.h>
 #include <PubSubClient.h>
