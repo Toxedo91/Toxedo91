@@ -1,0 +1,105 @@
+
+======================================================================
+[2026-03-26 00:25:35.410] Arduino Extension 启动 (v0.2.1)
+  平台: win32 x64
+  VS Code: 1.112.0
+  Node: v22.22.0
+======================================================================
+[2026-03-26 00:25:35.410][INFO] 板卡缓存目录: c:\Users\LeTox\AppData\Roaming\Code\User\globalStorage\oakiot.vscode-arduino-cli
+[2026-03-26 00:25:35.410][INFO] [BoardListHistory] 已初始化，加载了 0 个板卡记录，0 个端口记录
+[2026-03-26 00:25:35.411][INFO] [BuildOutputWebview] 编译日志缓存路径: c:\Users\LeTox\Documents\GitHub\Toxedo91\.vscode\build-output.log
+[2026-03-26 00:25:35.411][INFO] 刷新板卡列表...
+[2026-03-26 00:25:35.411][INFO] 获取板卡列表...
+[2026-03-26 00:25:35.412][INFO] 验证 Arduino CLI 路径: /home/codespace/.vscode-remote/data/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli
+[2026-03-26 00:25:35.416][INFO] 刷新板卡管理器...
+[2026-03-26 00:25:35.417][INFO] 获取已安装的平台列表...
+[2026-03-26 00:25:35.417][INFO] 验证 Arduino CLI 路径: /home/codespace/.vscode-remote/data/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli
+[2026-03-26 00:25:35.422][INFO] 获取已安装库列表...
+[2026-03-26 00:25:35.422][INFO] 验证 Arduino CLI 路径: /home/codespace/.vscode-remote/data/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli
+[2026-03-26 00:25:35.434][INFO] 已注册调试命令
+[2026-03-26 00:25:35.435][INFO] 正在检测 Arduino CLI...
+[2026-03-26 00:25:35.437][INFO] 验证 Arduino CLI 路径: c:\Users\LeTox\AppData\Roaming\Code\User\globalStorage\oakiot.vscode-arduino-cli\arduino-cli\arduino-cli.exe
+[2026-03-26 00:25:35.444][INFO] Arduino CLI 插件激活完成
+[2026-03-26 00:25:35.988][WARN] Arduino CLI 路径无效: /home/codespace/.vscode-remote/data/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli, 错误: 命令执行失败 (退出码: 1): Das System kann den angegebenen Pfad nicht finden.
+
+[2026-03-26 00:25:35.989][INFO] 开始自动检测 Arduino CLI...
+[2026-03-26 00:25:35.989][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-03-26 00:25:35.998][WARN] Arduino CLI 路径无效: /home/codespace/.vscode-remote/data/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli, 错误: 命令执行失败 (退出码: 1): Das System kann den angegebenen Pfad nicht finden.
+
+[2026-03-26 00:25:35.998][INFO] 开始自动检测 Arduino CLI...
+[2026-03-26 00:25:35.998][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-03-26 00:25:36.004][WARN] Arduino CLI 路径无效: /home/codespace/.vscode-remote/data/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli, 错误: 命令执行失败 (退出码: 1): Das System kann den angegebenen Pfad nicht finden.
+
+[2026-03-26 00:25:36.004][INFO] 开始自动检测 Arduino CLI...
+[2026-03-26 00:25:36.004][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-03-26 00:25:36.650][INFO] Arduino CLI 验证成功: v1.4.1
+[2026-03-26 00:25:36.650][INFO] 验证 Arduino CLI 路径: c:\Users\LeTox\AppData\Roaming\Code\User\globalStorage\oakiot.vscode-arduino-cli\arduino-cli\arduino-cli.exe
+[2026-03-26 00:25:36.656][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 1): Der Befehl "arduino-cli" ist entweder falsch geschrieben oder
+konnte nicht gefunden werden.
+
+[2026-03-26 00:25:36.657][WARN] 未能自动检测到 Arduino CLI
+[2026-03-26 00:25:36.658][ERROR] 获取平台列表失败: CliNotReadyError: Arduino CLI 未配置或路径无效，请先执行 "Arduino: Configure CLI Path"
+[2026-03-26 00:25:36.658][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 1): Der Befehl "arduino-cli" ist entweder falsch geschrieben oder
+konnte nicht gefunden werden.
+
+[2026-03-26 00:25:36.659][WARN] 未能自动检测到 Arduino CLI
+[2026-03-26 00:25:36.659][ERROR] 获取板卡列表失败: CliNotReadyError: Arduino CLI 未配置或路径无效，请先执行 "Arduino: Configure CLI Path"
+[2026-03-26 00:25:36.659][INFO] 获取所有已安装的板卡...
+[2026-03-26 00:25:36.660][INFO] 验证 Arduino CLI 路径: /home/codespace/.vscode-remote/data/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli
+[2026-03-26 00:25:36.668][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 1): Der Befehl "arduino-cli" ist entweder falsch geschrieben oder
+konnte nicht gefunden werden.
+
+[2026-03-26 00:25:36.669][WARN] 未能自动检测到 Arduino CLI
+[2026-03-26 00:25:36.669][ERROR] 获取已安装库列表失败: CliNotReadyError: Arduino CLI 未配置或路径无效，请先执行 "Arduino: Configure CLI Path"
+[2026-03-26 00:25:36.746][WARN] Arduino CLI 路径无效: /home/codespace/.vscode-remote/data/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli, 错误: 命令执行失败 (退出码: 1): Das System kann den angegebenen Pfad nicht finden.
+
+[2026-03-26 00:25:36.746][INFO] 开始自动检测 Arduino CLI...
+[2026-03-26 00:25:36.747][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-03-26 00:25:36.815][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 1): Der Befehl "arduino-cli" ist entweder falsch geschrieben oder
+konnte nicht gefunden werden.
+
+[2026-03-26 00:25:36.815][WARN] 未能自动检测到 Arduino CLI
+[2026-03-26 00:25:36.816][ERROR] 获取板卡列表失败: CliNotReadyError: Arduino CLI 未配置或路径无效，请先执行 "Arduino: Configure CLI Path"
+[2026-03-26 00:25:36.816][INFO] 加载了 0 个平台，共 0 个板卡
+[2026-03-26 00:25:37.006][INFO] Arduino CLI 验证成功: v1.4.1
+[2026-03-26 00:25:37.185][INFO] CLI 路径已更新为: c:\Users\LeTox\AppData\Roaming\Code\User\globalStorage\oakiot.vscode-arduino-cli\arduino-cli\arduino-cli.exe
+[2026-03-26 00:25:37.186][INFO] 使用内置 Arduino CLI: c:\Users\LeTox\AppData\Roaming\Code\User\globalStorage\oakiot.vscode-arduino-cli\arduino-cli\arduino-cli.exe
+[2026-03-26 00:25:37.186][INFO] Arduino CLI 已就绪: c:\Users\LeTox\AppData\Roaming\Code\User\globalStorage\oakiot.vscode-arduino-cli\arduino-cli\arduino-cli.exe
+[2026-03-26 00:25:37.186][INFO] 版本: 1.4.1
+[2026-03-26 00:25:37.186][INFO] 刷新板卡列表...
+[2026-03-26 00:25:37.186][INFO] 获取板卡列表...
+[2026-03-26 00:25:37.186][INFO] 获取板卡列表...
+[2026-03-26 00:25:37.188][INFO] 已创建项目本地 Arduino CLI 配置目录: c:\Users\LeTox\Documents\GitHub\Toxedo91\.arduino-cli
+[2026-03-26 00:25:37.188][INFO] 使用全局共享下载目录: C:\Users\LeTox\.arduino-cli-shared\downloads
+[2026-03-26 00:25:37.190][INFO] 已创建/更新项目本地 Arduino CLI 配置: c:\Users\LeTox\Documents\GitHub\Toxedo91\.arduino-cli\arduino-cli.yaml
+[2026-03-26 00:25:37.190][INFO] 库目录: c:\Users\LeTox\Documents\GitHub\Toxedo91\.arduino-cli\user\libraries
+[2026-03-26 00:25:37.190][INFO] 下载目录: C:\Users\LeTox\.arduino-cli-shared\downloads
+[2026-03-26 00:25:37.191][INFO] 执行命令: "c:\Users\LeTox\AppData\Roaming\Code\User\globalStorage\oakiot.vscode-arduino-cli\arduino-cli\arduino-cli.exe" --config-dir c:\Users\LeTox\Documents\GitHub\Toxedo91\.arduino-cli board list --format json
+[2026-03-26 00:25:37.274][INFO] 执行命令: "c:\Users\LeTox\AppData\Roaming\Code\User\globalStorage\oakiot.vscode-arduino-cli\arduino-cli\arduino-cli.exe" --config-dir c:\Users\LeTox\Documents\GitHub\Toxedo91\.arduino-cli board list --format json
+[2026-03-26 00:25:37.414][INFO] [BoardDiscovery] 启动板卡实时发现...
+[2026-03-26 00:25:37.423][INFO] [BoardDiscovery] 监听进程已启动
+[2026-03-26 00:25:37.424][INFO] 启动时自动更新 Library Index...
+[2026-03-26 00:25:40.207][INFO] [BoardDiscovery] 端口添加: COM1 - Serial Port
+[2026-03-26 00:25:40.207][INFO] [BoardDiscovery] 检测到端口变化，刷新板卡列表
+[2026-03-26 00:25:40.207][INFO] 刷新板卡列表...
+[2026-03-26 00:25:40.208][INFO] 获取板卡列表...
+[2026-03-26 00:25:40.208][INFO] 执行命令: "c:\Users\LeTox\AppData\Roaming\Code\User\globalStorage\oakiot.vscode-arduino-cli\arduino-cli\arduino-cli.exe" --config-dir c:\Users\LeTox\Documents\GitHub\Toxedo91\.arduino-cli board list --format json
+[2026-03-26 00:25:43.153][INFO] 找到 1 个端口
+[2026-03-26 00:25:43.153][INFO] 获取所有已安装的板卡...
+[2026-03-26 00:25:43.154][INFO] 执行命令: "c:\Users\LeTox\AppData\Roaming\Code\User\globalStorage\oakiot.vscode-arduino-cli\arduino-cli\arduino-cli.exe" --config-dir c:\Users\LeTox\Documents\GitHub\Toxedo91\.arduino-cli board listall --format json
+[2026-03-26 00:25:43.218][INFO] 找到 1 个端口
+[2026-03-26 00:25:43.218][INFO] 获取所有已安装的板卡...
+[2026-03-26 00:25:43.218][INFO] 执行命令: "c:\Users\LeTox\AppData\Roaming\Code\User\globalStorage\oakiot.vscode-arduino-cli\arduino-cli\arduino-cli.exe" --config-dir c:\Users\LeTox\Documents\GitHub\Toxedo91\.arduino-cli board listall --format json
+[2026-03-26 00:25:43.678][INFO] 找到 0 个已安装的板卡
+[2026-03-26 00:25:43.678][INFO] 加载了 0 个平台，1 个端口
+[2026-03-26 00:25:43.705][INFO] 找到 0 个已安装的板卡
+[2026-03-26 00:25:43.706][INFO] 加载了 0 个平台，共 0 个板卡
+[2026-03-26 00:25:44.339][INFO] 找到 1 个端口
+[2026-03-26 00:25:44.339][INFO] 获取所有已安装的板卡...
+[2026-03-26 00:25:44.339][INFO] 执行命令: "c:\Users\LeTox\AppData\Roaming\Code\User\globalStorage\oakiot.vscode-arduino-cli\arduino-cli\arduino-cli.exe" --config-dir c:\Users\LeTox\Documents\GitHub\Toxedo91\.arduino-cli board listall --format json
+[2026-03-26 00:25:44.789][INFO] 找到 0 个已安装的板卡
+[2026-03-26 00:25:44.790][INFO] 加载了 0 个平台，共 0 个板卡
+[2026-03-26 00:58:00.646][FATAL] [Global] 未处理的 Promise Rejection: command '_aiEdits.clearAllAiContributions' not found
+  Stack: Error: command '_aiEdits.clearAllAiContributions' not found
+    at NXe._tryExecuteCommand (vscode-file://vscode-app/c:/Users/LeTox/AppData/Local/Programs/Microsoft%20VS%20Code/07ff9d6178/resources/app/out/vs/workbench/workbench.desktop.main.js:1743:4829)
+    at NXe.executeCommand (vscode-file://vscode-app/c:/Users/LeTox/AppData/Local/Programs/Microsoft%20VS%20Code/07ff9d6178/resources/app/out/vs/workbench/workbench.desktop.main.js:1743:4729)
