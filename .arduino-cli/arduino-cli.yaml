@@ -1,0 +1,11 @@
+# Arduino CLI 项目本地配置
+# 自动生成，所有数据存储在项目目录中
+
+directories:
+  user: "c:/Users/LeTox/Documents/GitHub/Toxedo91/.arduino-cli/user"
+  data: "c:/Users/LeTox/Documents/GitHub/Toxedo91/.arduino-cli/data"
+  downloads: "C:/Users/LeTox/.arduino-cli-shared/downloads"
+
+network:
+  connection_timeout: 600s
+
