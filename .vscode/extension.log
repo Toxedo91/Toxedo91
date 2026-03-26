@@ -103,3 +103,38 @@ konnte nicht gefunden werden.
   Stack: Error: command '_aiEdits.clearAllAiContributions' not found
     at NXe._tryExecuteCommand (vscode-file://vscode-app/c:/Users/LeTox/AppData/Local/Programs/Microsoft%20VS%20Code/07ff9d6178/resources/app/out/vs/workbench/workbench.desktop.main.js:1743:4829)
     at NXe.executeCommand (vscode-file://vscode-app/c:/Users/LeTox/AppData/Local/Programs/Microsoft%20VS%20Code/07ff9d6178/resources/app/out/vs/workbench/workbench.desktop.main.js:1743:4729)
+[2026-03-26 01:06:39.764][FATAL] [Global] 未处理的 Promise Rejection: command '_aiEdits.clearAllAiContributions' not found
+  Stack: Error: command '_aiEdits.clearAllAiContributions' not found
+    at NXe._tryExecuteCommand (vscode-file://vscode-app/c:/Users/LeTox/AppData/Local/Programs/Microsoft%20VS%20Code/07ff9d6178/resources/app/out/vs/workbench/workbench.desktop.main.js:1743:4829)
+    at NXe.executeCommand (vscode-file://vscode-app/c:/Users/LeTox/AppData/Local/Programs/Microsoft%20VS%20Code/07ff9d6178/resources/app/out/vs/workbench/workbench.desktop.main.js:1743:4729)
+[2026-03-26 01:20:07.520][INFO] Arduino CLI 插件正在停用...
+[2026-03-26 01:20:07.520][INFO] 串口监视器(Terminal)已释放
+[2026-03-26 01:20:07.521][INFO] 串口监视器(WebView)已释放
+[2026-03-26 01:20:07.522][INFO] [BoardDiscovery] 释放资源...
+[2026-03-26 01:20:07.522][INFO] [BoardDiscovery] 停止板卡发现监听
+[2026-03-26 01:20:07.523][INFO] [BoardDiscovery] 终止进程树，PID: 1380
+[2026-03-26 01:20:07.533][INFO] [BoardDiscovery] 资源已释放
+[2026-03-26 01:20:07.533][INFO] Arduino Extension 关闭
+──────────────────────────────────────────────────────────────────────
+[2026-03-26 01:20:07.610][FATAL] [Global] 未捕获的异常: Channel has been closed
+  Stack: Error: Channel has been closed
+	at i (file:///c:/Users/LeTox/AppData/Local/Programs/Microsoft%20VS%20Code/07ff9d6178/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:501:3935)
+	at Object.warn (file:///c:/Users/LeTox/AppData/Local/Programs/Microsoft%20VS%20Code/07ff9d6178/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:501:4349)
+	at Object.warning (c:\Users\LeTox\.vscode\extensions\openai.chatgpt-26.5324.21329-win32-x64\out\extension.js:202:1171)
+	at Object.log (c:\Users\LeTox\.vscode\extensions\openai.chatgpt-26.5324.21329-win32-x64\out\extension.js:202:1459)
+	at r (c:\Users\LeTox\.vscode\extensions\openai.chatgpt-26.5324.21329-win32-x64\out\extension.js:24:6038)
+	at Object.warning (c:\Users\LeTox\.vscode\extensions\openai.chatgpt-26.5324.21329-win32-x64\out\extension.js:24:6076)
+	at Socket.<anonymous> (c:\Users\LeTox\.vscode\extensions\openai.chatgpt-26.5324.21329-win32-x64\out\extension.js:186:11943)
+	at Socket.emit (node:events:519:28)
+	at emitErrorNT (node:internal/streams/destroy:170:8)
+	at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+[2026-03-26 01:20:07.656][FATAL] [Global] 未捕获的异常: Channel has been closed
+  Stack: Error: Channel has been closed
+	at i (file:///c:/Users/LeTox/AppData/Local/Programs/Microsoft%20VS%20Code/07ff9d6178/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:501:3935)
+	at Object.info (file:///c:/Users/LeTox/AppData/Local/Programs/Microsoft%20VS%20Code/07ff9d6178/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:501:4305)
+	at WT.info (c:\Users\LeTox\AppData\Local\Programs\Microsoft VS Code\07ff9d6178\resources\app\extensions\json-language-features\client\dist\node\jsonClientMain.js:14:709)
+	at ChildProcess.<anonymous> (c:\Users\LeTox\AppData\Local\Programs\Microsoft VS Code\07ff9d6178\resources\app\extensions\json-language-features\client\dist\node\jsonClientMain.js:19:48759)
+	at ChildProcess.emit (node:events:519:28)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+	at Process.callbackTrampoline (node:internal/async_hooks:130:17)
